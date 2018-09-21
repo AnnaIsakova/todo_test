@@ -1,3 +1,5 @@
+package me.annaisakova.todo;
+
 import java.util.List;
 
 public interface CrudRepository<T> {
