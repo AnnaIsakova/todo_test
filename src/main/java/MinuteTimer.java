@@ -9,7 +9,6 @@ public class MinuteTimer extends TimerExtender {
     CrudRepository<TodoItem> repository = new TodoItemRepository();
     @Override
     public void execute() {
-        System.out.println("FDFDFD");
         try {
             List<TodoItem> items = repository.getAll();
             items.forEach(item->{
